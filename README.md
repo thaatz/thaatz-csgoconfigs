@@ -21,3 +21,7 @@
 [{w:1.25},"Ctrl",{w:1.25},"Win",{w:1.25},"Alt",{a:7,w:6.25},"",{a:6},"Alt","Fn","Ctrl",{a:7},"←","↓","→"]
 ```
 
+## Resources
+- https://csgoconsole.com/
+- https://readtldr.gg/simpleradar
+  - https://readtldr.gg/simpleradar-download
