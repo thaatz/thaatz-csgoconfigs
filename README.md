@@ -1,11 +1,27 @@
 # thaatz-csgoconfigs
+- compare default configs at https://github.com/SteamDatabase/GameTracking-CSGO/tree/master/csgo/cfg
 
 ## Launch Options
 `-novid -nojoy -nosteamcontroller -nohltv +exec autoexec.cfg`
 - https://docs.mastercomfig.com/en/latest/customization/launch_options/
 - https://totalcsgo.com/launch-options
 
-## Keybinds
+## Video Settings
+- Global Shadow Quality: High
+  - [adreN - CSGO Shadow Quality - Youtube](https://www.youtube.com/watch?v=MsDQDbh5lQM)
+- Model/Texture Quality: Low
+- Texture Streaming: Enabled
+- Effect Detail: Low
+- Shader Detail: Low
+- Boost Player Contrast: Enabled
+- Multicore Rendering: Enabled
+- Multisample Anti-Aliasing Mode: 4x MSAA
+  - [3kliksphilip - Best anit-aliasing for seeing people - Youtube](https://www.youtube.com/watch?v=uUmRKryhS8A)
+- FXAA Anti-Aliasing: Disabled
+- Texture Filtering Mode: Anisotropic 16x
+- Wait for Vertical Sync: Disabled
+- Triple-Monitor Mode: Disabled
+- Use Uber Shaders: Enabled
 
 ```
 [{a:6},"Esc","F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12",{a:5},"PrtSc\nNmLk","Pause\nScrLk","Delete\nInsert"],
@@ -32,3 +48,11 @@
 - https://csgoconsole.com/
 - https://readtldr.gg/simpleradar
   - https://readtldr.gg/simpleradar-download
+
+## Bot Practice
+```
+mp_bot_ai_bt "scripts/ai/deathmatch/bt_default.kv3"
+bot_defer_to_human_goals 0
+bot_defer_to_human_items 0
+```
+- https://old.reddit.com/r/GlobalOffensive/comments/el44ir/enabling_the_new_ai_to_plant_in_offline/
