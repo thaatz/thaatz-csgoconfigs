@@ -1,5 +1,12 @@
 # thaatz-csgoconfigs
 
+## Launch Options
+`-novid -nojoy -nosteamcontroller -nohltv +exec autoexec.cfg`
+- https://docs.mastercomfig.com/en/latest/customization/launch_options/
+- https://totalcsgo.com/launch-options
+
+## Keybinds
+
 ```
 [{a:6},"Esc","F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12",{a:5},"PrtSc\nNmLk","Pause\nScrLk","Delete\nInsert"],
 [{a:4},"~\n`","!\n1","@\n2","#\n3\n\n\n\n\n\n\n\nknife","$\n4","%\n5\n\n\n\n\n\n\n\nbomb","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{a:6,w:2},"Backspace","Home",{x:1,a:4},"m4\n\n\n\n\n\n\n\n\nflash","m1\n\n\n\n\n\n\n\n\nfire",{a:5},"m3\n\n\n\n\n\nattack2",{a:4},"m2\n\n\n\n\n\n\n\n\nduck"],
