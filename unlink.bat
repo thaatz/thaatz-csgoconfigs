@@ -6,5 +6,9 @@ del "%csgodir%\autoexec.cfg"
 copy "cfg\autoexec.cfg" "%csgodir%\autoexec.cfg"
 del "%csgodir%\controls.cfg"
 copy "cfg\controls.cfg" "%csgodir%\controls.cfg"
+rmdir "%csgodir%\practice"
+copy "cfg\practice" "%csgodir%\practice"
+rmdir "%csgodir%\user"
+copy "cfg\user" "%csgodir%\user"
 
 pause
